@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "py-threat-sim-engine"
+version = "0.1.0"
+description = ""
+authors = ["Krystian Postek <krystian@postek.eu>"]
+readme = "README.md"
+packages = [{include = "py_threat_sim_engine"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
